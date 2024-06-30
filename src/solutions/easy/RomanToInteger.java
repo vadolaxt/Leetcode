@@ -2,7 +2,9 @@ package solutions.easy;
 
 public class RomanToInteger {
     public static int romanToInt(String s) {
-        int prev = 0, num = 0, ans = 0;
+        int ans = 0;
+        int pre = 0;
+        int num = 0;
         char[] arr = s.toCharArray();
         for (int i = arr.length - 1; i >= 0; i--) {
             switch (arr[i]) {
@@ -28,17 +30,16 @@ public class RomanToInteger {
                     num = 1000;
                     break;
             }
-            // Nếu số hiện tại nhỏ hơn số liền kề bên phải
-            if (num < prev) {
+            if (num < pre) {
                 ans -= num;
-                // Nếu số hiện tại lớn hơn hoặc bằng số liền kề bên phải
             } else {
                 ans += num;
             }
-            prev = num;
+            pre = num; //sau khi so sánh thì cập nhật pre
         }
         return ans;
     }
+
     public static void main(String[] args) {
         System.out.println(romanToInt("XVIII"));
         System.out.println(romanToInt("XIV"));
