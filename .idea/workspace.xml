@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a6097ec-1626-4299-8e05-32eb74abfd1e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problems/easy/1. Two Sum" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/easy/1. Two Sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problems/easy/13. Roman to Integer" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/easy/13. Roman to Integer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problems/easy/9. Palindrome Number" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/easy/9. Palindrome Number" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solutions/easy/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/easy/RomanToInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.LongestCommonPrefix.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -68,10 +65,24 @@
       <recent name="D:\Leetcode\src\Solutions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Leetcode\src\problems\easy" />
       <recent name="D:\Leetcode\src\Problems\Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RomanToInteger">
+  <component name="RunManager" selected="Application.LongestCommonPrefix">
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solutions.easy.LongestCommonPrefix" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solutions.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solutions.easy.RomanToInteger" />
       <module name="Leetcode" />
@@ -100,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.RomanToInteger" />
         <item itemvalue="Application.TwoSum" />
       </list>
@@ -123,7 +135,9 @@
       <workItem from="1719739722238" duration="471000" />
       <workItem from="1719740206276" duration="590000" />
       <workItem from="1719753157841" duration="27000" />
-      <workItem from="1719761652390" duration="2121000" />
+      <workItem from="1719761652390" duration="2952000" />
+      <workItem from="1719838887771" duration="605000" />
+      <workItem from="1719848778174" duration="2204000" />
     </task>
     <servers />
   </component>
