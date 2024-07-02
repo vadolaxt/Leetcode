@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a6097ec-1626-4299-8e05-32eb74abfd1e" name="Changes" comment="">
+    <list default="true" id="3a6097ec-1626-4299-8e05-32eb74abfd1e" name="Changes" comment="problem 14: solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +41,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConsecutiveOdds.executor": "Run",
     "Application.LongestCommonPrefix.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
     "Application.TwoSum.executor": "Run",
+    "Application.validParenthese.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -69,7 +71,20 @@
       <recent name="D:\Leetcode\src\Problems\Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestCommonPrefix">
+  <component name="RunManager" selected="Application.ConsecutiveOdds">
+    <configuration name="ConsecutiveOdds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solutions.easy.ConsecutiveOdds" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solutions.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solutions.easy.LongestCommonPrefix" />
       <module name="Leetcode" />
@@ -109,8 +124,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidParenthese" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solutions.easy.ValidParenthese" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solutions.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsecutiveOdds" />
+        <item itemvalue="Application.ValidParenthese" />
         <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.RomanToInteger" />
         <item itemvalue="Application.TwoSum" />
@@ -137,11 +167,26 @@
       <workItem from="1719753157841" duration="27000" />
       <workItem from="1719761652390" duration="2952000" />
       <workItem from="1719838887771" duration="605000" />
-      <workItem from="1719848778174" duration="2204000" />
+      <workItem from="1719848778174" duration="4281000" />
+      <workItem from="1719886933229" duration="4786000" />
+      <workItem from="1719906201628" duration="4748000" />
     </task>
+    <task id="LOCAL-00001" summary="problem 14: solved">
+      <option name="closed" value="true" />
+      <created>1719851293122</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719851293122</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="problem 14: solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem 14: solved" />
   </component>
 </project>
