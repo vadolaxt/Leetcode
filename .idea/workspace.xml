@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a6097ec-1626-4299-8e05-32eb74abfd1e" name="Changes" comment="problem 20, 1550: solved">
+    <list default="true" id="3a6097ec-1626-4299-8e05-32eb74abfd1e" name="Changes" comment="problem 2: started to understand; new package &quot;update&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/easy/ConsecutiveOdds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/easy/LongestCommonPrefix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/easy/PalindromeNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/easy/RomanToInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/easy/TwoSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/easy/ValidParenthese.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/medium/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/medium/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/update/Purpose" beforeDir="false" afterPath="$PROJECT_DIR$/src/update/Purpose" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,30 +48,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AddTwoNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConsecutiveOdds.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.validParenthese.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Leetcode/src/Solutions&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Leetcode/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AddTwoNumberr.executor": "Run",
+    "Application.AddTwoNumbers.executor": "Run",
+    "Application.ConsecutiveOdds.executor": "Run",
+    "Application.LongestCommonPrefix.executor": "Run",
+    "Application.LongestCommonPrefixx.executor": "Run",
+    "Application.PalindromeNumberr.executor": "Run",
+    "Application.ReverseInteger.executor": "Run",
+    "Application.ReverseIntegerr.executor": "Run",
+    "Application.RomanToInteger.executor": "Run",
+    "Application.RomanToIntegerr.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "Application.TwoSumm.executor": "Run",
+    "Application.ValidParenthesee.executor": "Run",
+    "Application.reverseInteger.executor": "Run",
+    "Application.validParenthese.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Leetcode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Leetcode/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Leetcode\src\Solutions" />
@@ -72,7 +94,7 @@
       <recent name="D:\Leetcode\src\Problems\Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddTwoNumbers">
+  <component name="RunManager" selected="Application.ReverseInteger">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solutions.medium.AddTwoNumbers" />
       <module name="Leetcode" />
@@ -112,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solutions.easy.RomanToInteger" />
+    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solutions.medium.ReverseInteger" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solutions.easy.*" />
+          <option name="PATTERN" value="solutions.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParenthese" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solutions.easy.ValidParenthese" />
+    <configuration name="ReverseIntegerr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solutions.medium.ReverseIntegerr" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solutions.easy.*" />
+          <option name="PATTERN" value="solutions.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,17 +162,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AddTwoNumbers" />
+        <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.ConsecutiveOdds" />
-        <item itemvalue="Application.ValidParenthese" />
+        <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.RomanToInteger" />
+        <item itemvalue="Application.ReverseIntegerr" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
         <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
       </set>
     </attachedChunks>
@@ -176,7 +199,15 @@
       <workItem from="1719928152446" duration="116000" />
       <workItem from="1719989253424" duration="614000" />
       <workItem from="1720084196559" duration="1517000" />
-      <workItem from="1720107777033" duration="2529000" />
+      <workItem from="1720107777033" duration="2715000" />
+      <workItem from="1720185736503" duration="2336000" />
+      <workItem from="1720188169428" duration="707000" />
+      <workItem from="1720188917796" duration="378000" />
+      <workItem from="1720189526846" duration="232000" />
+      <workItem from="1720190594462" duration="262000" />
+      <workItem from="1720190919001" duration="1047000" />
+      <workItem from="1720191982542" duration="1637000" />
+      <workItem from="1720193648228" duration="3536000" />
     </task>
     <task id="LOCAL-00001" summary="problem 14: solved">
       <option name="closed" value="true" />
@@ -194,15 +225,31 @@
       <option name="project" value="LOCAL" />
       <updated>1719911380532</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="problem 2: started to understand; new package &quot;update&quot;">
+      <option name="closed" value="true" />
+      <created>1720110755367</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720110755367</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../" />
+    </ignored-roots>
     <MESSAGE value="problem 14: solved" />
     <MESSAGE value="problem 20, 1550: solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="problem 20, 1550: solved" />
+    <MESSAGE value="problem 2: started to understand; new package &quot;update&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem 2: started to understand; new package &quot;update&quot;" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

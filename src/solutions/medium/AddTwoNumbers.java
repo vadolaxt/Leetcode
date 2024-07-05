@@ -19,18 +19,18 @@ public class AddTwoNumbers {
 
         @Override
         public String toString() {
-            return "ListNode{" +
-                    "val=" + val +
-                    ", next=" + next +
-                    '}';
+            return "ListNode{" + "val=" + val + ", next=" + next + '}';
         }
     }
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode dummy = new ListNode(0);
-        ListNode curr = dummy;
-        int carry = 0;
+        ListNode dummy = new ListNode(0); // an temp value
+        ListNode curr = dummy; // pointer that track dummy val
+        int carry = 0; // a value that sum l1, l2 digit
         while (l1 != null || l2 != null || carry > 0) {
+            /**
+             * carry phải lớn hơn 0 vì khi cộng hết số lương digit thì nếu có phần nhớ thì phải thêm phần nhớ đó vào dummy trc khi dừng
+             */
             if (l1 != null) {
                 carry += l1.val;
                 l1 = l1.next;
@@ -40,21 +40,21 @@ public class AddTwoNumbers {
                 l2 = l2.next;
             }
             curr.next = new ListNode(carry % 10);
-            System.out.println(" curr.next= "+ curr.next);
             carry /= 10;
             curr = curr.next;
-            System.out.println(curr);
-            System.out.println("--dummy="+dummy.next);
         }
         return dummy.next;
+
     }
 
     public static void main(String[] args) {
         ListNode x1 = new ListNode(2, new ListNode(4, new ListNode(3)));
         ListNode x2 = new ListNode(5, new ListNode(6, new ListNode(4)));
 
-        System.out.println(addTwoNumbers(x1,x2));
-
+        ListNode x3 = new ListNode(9);
+        ListNode x4 = new ListNode(9, new ListNode(9, new ListNode(9)));
+        System.out.println(addTwoNumbers(x1, x2));
+        System.out.println(addTwoNumbers(x3, x4));
 
 
     }

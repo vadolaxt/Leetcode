@@ -1,4 +1,3 @@
-
 package solutions.easy;
 
 public class PalindromeNumber {

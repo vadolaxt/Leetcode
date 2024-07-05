@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/solutions/easy/ConsecutiveOdds.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/solutions/easy/LongestCommonPrefix.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/solutions/easy/PalindromeNumber.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/solutions/easy/RomanToInteger.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/solutions/easy/TwoSum.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/solutions/easy/ValidParenthese.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/solutions/medium/AddTwoNumbers.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/solutions/medium/ReverseInteger.java" charset="UTF-8" />
+  </component>
+</project>
